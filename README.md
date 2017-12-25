@@ -1,4 +1,4 @@
-# cssgrid tutorials
+# CSS GRID Tutorials
 
 content of this repo is spereted by lessons as below
 
