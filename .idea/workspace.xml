@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="729056ea-5d9b-411b-a1f1-dc4974a9f098" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\cssgrid.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\AppServ\www\cssgrid\.idea\workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cssgrid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,18 +44,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <first_editor vertical-scroll-proportion="0.06148282">
+                <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.027960526">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +89,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lesson6.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -209,7 +229,13 @@
       <option name="project" value="LOCAL" />
       <updated>1514228723325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed 7 lessons">
+      <created>1514229142315</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514229142315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -243,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="complted 7 lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="complted 7 lessons" />
+    <MESSAGE value="completed 7 lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed 7 lessons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -313,25 +340,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <first_editor vertical-scroll-proportion="0.06148282">
+            <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027960526">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 # CSS GRID Tutorials
 
-content of this repo is spereted by lessons as below
+content of this repo is separated by lessons as below
 
 # lesson 2 Columns
 
