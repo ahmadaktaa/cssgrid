@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 2 - Rows | IQ TECH</title>
+    <style>
+        body{
+            color: #fff;
+            text-align: center;
+        }
+        .container{
+            max-width: 970px;
+            margin: 0 auto;
+            display: grid;
+            /*grid-template-columns: 20% 50% 30%;*/
+            /*grid-template-columns: 1fr 2fr 1fr 1fr ;*/
+            grid-template-columns: repeat(3,1fr);
+            /*grid-template-rows: repeat(5,1fr);*/
+            grid-auto-rows: minmax(200px,auto);
+            /*grid-column-gap:10px;
+            grid-row-gap:10px*/
+            grid-gap:10px
+        }
+        .container div {
+            padding: 30px;
+            background-color: #006ea5;
+        }
+        .container div:nth-child(even){
+            background-color: #a50000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص لوريم إيبسوم. </div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+</div>
+</body>
+</html>

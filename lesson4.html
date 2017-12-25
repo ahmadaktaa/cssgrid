@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 4 - Nested Grid | IQ TECH</title>
+    <style>
+        body{
+            color: #fff;
+            text-align: center;
+        }
+        .container{
+            max-width: 970px;
+            margin: 0 auto;
+            display: grid;
+            /*grid-template-columns: 20% 50% 30%;*/
+            /*grid-template-columns: 1fr 2fr 1fr 1fr ;*/
+            /*grid-template-rows: repeat(5,1fr);*/
+            /*grid-auto-rows: minmax(200px,auto);*/
+            /*grid-column-gap:10px;
+            grid-row-gap:10px*/
+            grid-template-columns: repeat(3,1fr);
+            grid-gap:10px
+        }
+        .container div {
+            padding: 30px;
+            background-color: #006ea5;
+        }
+        .container div:nth-child(even){
+            background-color: #a50000;
+        }
+        .four{
+            display: grid;
+           grid-template-columns: repeat(3,1fr);
+            grid-gap:2px;
+            grid-column: span 3;
+        }
+        .four div{
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <div class="five">5</div>
+    <div class="six">6</div>
+</div>
+</body>
+</html>

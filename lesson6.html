@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 6 - Grid areas | IQ TECH</title>
+    <style>
+        body{
+            color: #fff;
+            text-align: center;
+        }
+        .container{
+            max-width: 970px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(20px,auto);
+            grid-gap:10px;
+            grid-template-areas:
+            "header header header"
+            "nav main section"
+            "nav main section"
+            "side . section"
+            "side . section"
+            "footer footer footer"
+        ;
+        }
+        .container div {
+            padding: 30px;
+            background-color: #006ea5;
+        }
+        .container div:nth-child(even){
+            background-color: #a50000;
+        }
+        .one{
+            grid-area: header;
+        }
+        .two{
+            grid-area: footer;
+        }
+        .three{
+            grid-area: section;
+        }
+        .four{
+            grid-area: nav;
+        }
+        .five{
+            grid-area: side;
+        }
+        .six{
+            grid-area: main;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="one">header</div>
+    <div class="two">footer</div>
+    <div class="three">section</div>
+    <div class="four">nav</div>
+    <div class="five">side</div>
+    <div class="six">main</div>
+</div>
+</body>
+</html>
